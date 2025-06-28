@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7b57689-f658-4eee-be9c-c08e52e71175" name="Changes" comment="Alterações para funcionamento do login.">
-      <change afterPath="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo/CartControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo/ItemControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo/OrderControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7b57689-f658-4eee-be9c-c08e52e71175" name="Changes" comment="Testes para controllers." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +173,31 @@
       <option name="project" value="LOCAL" />
       <updated>1751080919327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testes para controllers.">
+      <option name="closed" value="true" />
+      <created>1751146555086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751146555086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Testes para controllers.">
+      <option name="closed" value="true" />
+      <created>1751146582663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751146582663</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testes para controllers.">
+      <option name="closed" value="true" />
+      <created>1751146595040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751146595040</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alterações para uso de senha na criação de usuário." />
     <MESSAGE value="Alterações para funcionamento do login." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterações para funcionamento do login." />
+    <MESSAGE value="Testes para controllers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes para controllers." />
   </component>
 </project>
