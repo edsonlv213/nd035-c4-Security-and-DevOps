@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7b57689-f658-4eee-be9c-c08e52e71175" name="Changes" comment="Testes para controllers.">
-      <change afterPath="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo/CartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/src/main/java/com/example/demo/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/src/main/java/com/example/demo/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +60,14 @@
     "JUnit.UserControllerTest.createUser_Success.executor": "Run",
     "JUnit.UserControllerTest.executor": "Run",
     "JUnit.UserTest.executor": "Run",
+    "JUnit.demo in auth-course.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Curso-Udacity/Curso4-StoresandPersistence/nd035-c4-Security-and-DevOps"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserTest">
+  <component name="RunManager" selected="JUnit.demo in auth-course">
     <configuration name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
@@ -114,21 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auth-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.LoginRequestTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
@@ -144,13 +130,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo in auth-course" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-course" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/starter_code/src/test/java/com/example/demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.demo in auth-course" />
         <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.CartTest" />
         <item itemvalue="JUnit.CartTest.testSetAndGetId" />
         <item itemvalue="JUnit.CartTest.testRemoveItem_WhenTotalExists" />
-        <item itemvalue="JUnit.LoginRequestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,5 +253,8 @@
     <MESSAGE value="Alterações para funcionamento do login." />
     <MESSAGE value="Testes para controllers." />
     <option name="LAST_COMMIT_MESSAGE" value="Testes para controllers." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nd035_c4_Security_and_DevOps$demo_in_auth_course.ic" NAME="demo in auth-course Coverage Results" MODIFIED="1751149734158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
